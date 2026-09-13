@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Outer Decorative Border Ring -->
+    <path
+        android:strokeColor="#C5D3AA"
+        android:strokeWidth="1.5"
+        android:pathData="M54,12 C77.19,12 96,30.81 96,54 C96,77.19 77.19,96 54,96 C30.81,96 12,77.19 12,54 C12,30.81 30.81,12 54,12 Z" />
+
+    <!-- Inner Border Ring -->
+    <path
+        android:strokeColor="#C5D3AA"
+        android:strokeWidth="1"
+        android:pathData="M54,16 C74.99,16 92,33.01 92,54 C92,74.99 74.99,92 54,92 C33.01,92 16,74.99 16,54 C16,33.01 33.01,16 54,16 Z" />
+
+    <!-- Crescent Moon pointing upwards -->
+    <path
+        android:fillColor="#DFE8CC"
+        android:pathData="M39,46 C39,54 46,59 54,59 C62,59 69,54 69,46 C69,52 62,57 54,57 C46,57 39,52 39,46 Z" />
+
+    <!-- Circle (Full Moon / Star) at the center of the crescent -->
+    <path
+        android:fillColor="#DFE8CC"
+        android:pathData="M54,34 C56.76,34 59,36.24 59,39 C59,41.76 56.76,44 54,44 C51.24,44 49,41.76 49,39 C49,36.24 51.24,34 54,34 Z" />
+
+    <!-- Crossed Swords/Quills -->
+    <!-- Blade 1: From bottom-left to top-right -->
+    <path
+        android:strokeColor="#DFE8CC"
+        android:strokeWidth="2.2"
+        android:strokeLineCap="round"
+        android:pathData="M38,66 L70,51" />
+    <path
+        android:fillColor="#DFE8CC"
+        android:pathData="M37,67 C37,66.17 36.17,65.34 35,65.34 C33.83,65.34 33,66.17 33,67 C33,67.83 33.83,68.66 35,68.66 C36.17,68.66 37,67.83 37,67 Z" />
+
+    <!-- Blade 2: From bottom-right to top-left -->
+    <path
+        android:strokeColor="#DFE8CC"
+        android:strokeWidth="2.2"
+        android:strokeLineCap="round"
+        android:pathData="M70,66 L38,51" />
+    <path
+        android:fillColor="#DFE8CC"
+        android:pathData="M71,67 C71,66.17 70.17,65.34 69,65.34 C67.83,65.34 67,66.17 67,67 C67,67.83 67.83,68.66 69,68.66 C70.17,68.66 71,67.83 71,67 Z" />
+
+    <!-- Custom Center Quran (Open Book) at the bottom -->
+    <path
+        android:fillColor="#DFE8CC"
+        android:pathData="M45,83 L54,79 L63,83 L60,86 L54,82 L48,86 Z" />
+
+    <!-- Left Page of Quran -->
+    <path
+        android:fillColor="#EBF2DB"
+        android:strokeColor="#839768"
+        android:strokeWidth="0.8"
+        android:pathData="M54,72 C49,70 43,71 38,74 L38,81 C43,78 49,77 54,79 Z" />
+
+    <!-- Right Page of Quran -->
+    <path
+        android:fillColor="#EBF2DB"
+        android:strokeColor="#839768"
+        android:strokeWidth="0.8"
+        android:pathData="M54,72 C59,70 65,71 70,74 L70,81 C65,78 59,77 54,79 Z" />
+
+</vector>

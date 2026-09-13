@@ -1,0 +1,6 @@
+{
+  "name": "Ponpes Jaya Baru",
+  "description": "Bimbingan Ilmu Tasawuf Ponpes Jaya Baru",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

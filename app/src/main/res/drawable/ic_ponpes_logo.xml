@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Background circle (Dark Accent) -->
+    <path
+        android:fillColor="#152114"
+        android:pathData="M54,0 C83.82,0 108,24.18 108,54 C108,83.82 83.82,108 54,108 C24.18,108 0,83.82 0,54 C0,24.18 24.18,0 54,0 Z" />
+
+    <!-- Outer Decorative Border Ring -->
+    <path
+        android:strokeColor="#C5D3AA"
+        android:strokeWidth="1.5"
+        android:pathData="M54,6 C80.51,6 102,27.49 102,54 C102,80.51 80.51,102 54,102 C27.49,102 6,80.51 6,54 C6,27.49 27.49,6 54,6 Z" />
+
+    <!-- Inner Border Ring -->
+    <path
+        android:strokeColor="#C5D3AA"
+        android:strokeWidth="1"
+        android:pathData="M54,10 C78.3,10 98,29.7 98,54 C98,78.3 78.3,98 54,98 C29.7,98 10,78.3 10,54 C10,29.7 29.7,10 54,10 Z" />
+
+    <!-- Crescent Moon pointing upwards -->
+    <path
+        android:fillColor="#DFE8CC"
+        android:pathData="M36,44 C36,54 44,60 54,60 C64,60 72,54 72,44 C72,51 64,57 54,57 C44,57 36,51 36,44 Z" />
+
+    <!-- Circle (Full Moon / Star) at the center of the crescent -->
+    <path
+        android:fillColor="#DFE8CC"
+        android:pathData="M54,30 C57.31,30 60,32.69 60,36 C60,39.31 57.31,42 54,42 C50.69,42 48,39.31 48,36 C48,32.69 50.69,30 54,30 Z" />
+
+    <!-- Crossed Swords/Quills -->
+    <!-- Blade 1: From bottom-left to top-right -->
+    <path
+        android:strokeColor="#DFE8CC"
+        android:strokeWidth="2"
+        android:strokeLineCap="round"
+        android:pathData="M36,68 L72,50" />
+    <path
+        android:fillColor="#DFE8CC"
+        android:pathData="M35,69 C35,68.17 34.17,67.34 33,67.34 C31.83,67.34 31,68.17 31,69 C31,69.83 31.83,70.66 33,70.66 C34.17,70.66 35,69.83 35,69 Z" />
+
+    <!-- Blade 2: From bottom-right to top-left -->
+    <path
+        android:strokeColor="#DFE8CC"
+        android:strokeWidth="2"
+        android:strokeLineCap="round"
+        android:pathData="M72,68 L36,50" />
+    <path
+        android:fillColor="#DFE8CC"
+        android:pathData="M73,69 C73,68.17 72.17,67.34 71,67.34 C69.83,67.34 69,68.17 69,69 C69,69.83 69.83,70.66 71,70.66 C72.17,70.66 73,69.83 73,69 Z" />
+
+    <!-- Custom Center Quran (Open Book) at the bottom -->
+    <!-- Stand/Base -->
+    <path
+        android:fillColor="#DFE8CC"
+        android:pathData="M44,88 L54,84 L64,88 L61,91 L54,87 L47,91 Z" />
+
+    <!-- Left Page of Quran -->
+    <path
+        android:fillColor="#EBF2DB"
+        android:strokeColor="#839768"
+        android:strokeWidth="0.8"
+        android:pathData="M54,76 C48,74 41,75 36,78 L36,86 C41,83 48,82 54,84 Z" />
+
+    <!-- Right Page of Quran -->
+    <path
+        android:fillColor="#EBF2DB"
+        android:strokeColor="#839768"
+        android:strokeWidth="0.8"
+        android:pathData="M54,76 C60,74 67,75 72,78 L72,86 C67,83 60,82 54,84 Z" />
+
+</vector>
